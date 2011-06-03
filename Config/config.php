@@ -15,7 +15,7 @@ $config = array(
 		),
 
 		'canonical-url' => 'curso-cakephp.com.br',
-		'google-anlytics' => 'UA-XXXXX-X'
+		'google-anlytics' => 'UA-23766967-1'
 	)
 );
 
