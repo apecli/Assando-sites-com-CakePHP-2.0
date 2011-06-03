@@ -12,6 +12,7 @@
 
 	<link rel="canonical" href="<?php echo $this->Html->url($canonical); ?>" />
 	<?php if (!Configure::read('Site.meta.robots')) echo $this->Html->meta('robots', null, array('name' => 'robots', 'content' => 'none')) . PHP_EOL; ?>
+	<meta name="google-site-verification" content="Nu7lnulZmJaaU7I1U0boWtRdpWJ2rOkRgX0daK8QXks" />
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
