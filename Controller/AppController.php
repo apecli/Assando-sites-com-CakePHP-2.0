@@ -18,6 +18,9 @@ class AppController extends Controller {
 		parent::beforeRender();
 
 		$this->set('canonical', rtrim(str_replace($this->base, 'http://' . Configure::read('Site.canonical-url'), $this->here), ''));
+
+		if (preg_match('/curso-?cakephp\.com\.br$/', env('HTTP_HOST')))
+			$this->layout = 'construcao';
 	}
 
 }

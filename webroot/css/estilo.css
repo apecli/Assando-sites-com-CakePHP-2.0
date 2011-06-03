@@ -11,6 +11,8 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 /* Geral ====================== */
 
+html { height: 100%; }
+
 body {
 	font: normal normal 16px/1.8em 'Brawler', serif;
 	color: #000;	
@@ -34,3 +36,31 @@ a { text-decoration: none; }
 /* Sidebar ====================== */
 
 /* Footer ====================== */
+
+
+
+
+/* Site em construção ====================== */
+
+body.construcao {
+	height: 100%;
+	background: url('../img/background-construcao.png') center center repeat-x;	
+}
+
+body.construcao #content {
+	background: url('../img/construcao.png') center center no-repeat;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: 1024px;
+	height: 386px;
+	
+	margin: -203px 0 0 -394px;		
+}
+
+body.construcao #content h1,
+body.construcao #content h2 {
+	display: none;
+}
