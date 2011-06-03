@@ -28,5 +28,6 @@
 		<h1><?php echo Configure::read('Site.meta.title'); ?></h1>
 		<h2>Em breve</h2>
 	</section>
+    <span class="splash"></span>
 </body>
 </html>
