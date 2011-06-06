@@ -6,7 +6,7 @@
 $config = array(
 	'Site' => array(
 		'title' => 'Assando sites com CakePHP',
-		'headline' => 'O curso onde você...',
+		'headline' => 'Desenvolva aplicações WEB com segurança e rapidez',
 
 		'meta' => array(
 			'title' => 'Assando sites com CakePHP, por Thiago Belem',

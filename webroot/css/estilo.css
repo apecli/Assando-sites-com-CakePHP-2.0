@@ -14,26 +14,109 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 html { height: 100%; }
 
 body {
-	font: normal normal 16px/1.8em 'Brawler', serif;
-	color: #000;	
+	font: normal normal 16px/1.5em 'Ubuntu', sans-serif;
+	color: #333;
+	background: #003d4c url('../img/background.png') left -575px repeat-x;	
 }
 	
-h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; color: #ee3322; }
 
-a { text-decoration: none; }
+a { text-decoration: none; } 
+
+/* Wraper ====================== */ 
 
 /* Header ====================== */
 
+#header { height: 80px; }
+
 #header h1 {
 	font-weight: normal;
-	font-family: 'The Girl Next Door', cursive; 	
+	font-family: 'The Girl Next Door', cursive;
+	color: white;
+	font-size: 2.45em;
+	
+	margin: 30px 0 5px 0;
 }
+#header h1 span {
+	font-weight: bold;
+}
+
+#header h2 { display: none; }
 
 /* Menu ====================== */
 
+#menu { margin-bottom: 50px; height: 50px }
+
+#menu li {
+	float: left;
+	margin-right: 10px;
+}
+
+#menu li a {
+	background: #003d4c;
+	padding: 3px 10px 4px;
+	border-radius: 8px;
+	display: block;
+	
+	color: #6ADCE6;
+	font-size: .9em;
+	
+	font-family: serif;
+}
+
+#menu li a:hover {
+	color: white;
+	background: #002d38;	
+}
+
 /* Content ====================== */
 
+#content { color: white; }
+
+#content h1,
+#content h2,
+#content h3,
+#content h4 {
+	color: #C0C25B;
+	margin-bottom: 5px;	
+}
+
+#content h1 { font-size: 1.4em; }
+#content h2 { font-size: 1.3em; }
+#content h3 { font-size: 1.2em; }
+#content h4 { font-size: 1em; }
+
+#content p,
+#content ul,
+#content ol,
+#content div,
+#content table {
+	margin-bottom: 20px;
+	list-style-position: inside;
+}
+
+#content ul,
+#content ol {
+	list-style-position: inside;
+}
+
 /* Sidebar ====================== */
+
+#sidebar .widget {
+	border: 3px solid white;
+	border-radius: 8px;
+	
+	background: #ebebc2;
+	padding: 10px;
+	
+	margin-bottom: 20px;		
+}
+
+#sidebar .widget h4 {
+	background: white;
+	margin: -10px -10px 5px -10px;
+	padding: 5px 10px;
+}
 
 /* Footer ====================== */
 
@@ -44,7 +127,7 @@ a { text-decoration: none; }
 
 body.construcao {
 	height: 100%;
-	background: url('../img/background-construcao.png') center center repeat-x;	
+	background: url('../img/background.png') center center repeat-x;	
 }
 
 body.construcao #content {
